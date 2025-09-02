@@ -57,7 +57,7 @@ img {
     color: #5a5a5a;
     font-style: italic;
     text-align: right;
-     padding-top: 11px;
+    padding-top: 11px;
 }
 
 .phone a {
@@ -85,7 +85,7 @@ img {
     font-size: 14px;
     line-height: 1.5em;
     color: #343434;
-    
+
 }
 
 
@@ -109,12 +109,24 @@ aside p {
     list-style-type: none;
 }
 
+.menu li:hover {
+    background-color: #5a5a5aa7;
+}
+
 .menu a {
     display: block;
     padding: 8px 0;
     font-size: 14px;
     text-transform: uppercase;
     color: #39930d;
+    transition: all 1s ease;
+}
+
+.menu a:hover {
+    display: block;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    padding-left: 50px;
 }
 
 .footer p {
