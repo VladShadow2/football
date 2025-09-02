@@ -85,8 +85,7 @@ img {
     font-size: 14px;
     line-height: 1.5em;
     color: #343434;
-    padding: 0;
-    margin: 0;
+    
 }
 
 
@@ -111,8 +110,9 @@ aside p {
 }
 
 .menu a {
+    display: block;
+    padding: 8px 0;
     font-size: 14px;
-    line-height: 2.14em;
     text-transform: uppercase;
     color: #39930d;
 }
